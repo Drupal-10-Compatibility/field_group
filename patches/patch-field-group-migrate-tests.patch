@@ -1,0 +1,13 @@
+diff --git a/contrib/field_group_migrate/tests/src/Kernel/Migrate/d7/MigrateFieldGroupTest.php b/contrib/field_group_migrate/tests/src/Kernel/Migrate/d7/MigrateFieldGroupTest.php
+index 72cd7bf..3b0b59a 100644
+--- a/contrib/field_group_migrate/tests/src/Kernel/Migrate/d7/MigrateFieldGroupTest.php
++++ b/contrib/field_group_migrate/tests/src/Kernel/Migrate/d7/MigrateFieldGroupTest.php
+@@ -19,7 +19,7 @@ class MigrateFieldGroupTest extends MigrateDrupal7TestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  public static $modules = [
++  protected static $modules = [
+     'field_group',
+     'field_group_migrate',
+     'comment',

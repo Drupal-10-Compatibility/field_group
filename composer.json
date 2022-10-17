@@ -114,6 +114,9 @@
             "drupal/core": "-p2"
         },
         "patches": {
+            "drupal/field_group": {
+                "Remove deprecated themes from unit tests": "patches/remove-deprecated-themes-from-unit-tests.patch"
+            }
         }
     },
     "scripts": {

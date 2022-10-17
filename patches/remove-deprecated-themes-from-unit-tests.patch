@@ -1,0 +1,30 @@
+diff --git a/tests/src/Functional/EntityDisplayTest.php b/tests/src/Functional/EntityDisplayTest.php
+index 9d6287d..4e24d17 100644
+--- a/tests/src/Functional/EntityDisplayTest.php
++++ b/tests/src/Functional/EntityDisplayTest.php
+@@ -43,7 +43,7 @@ class EntityDisplayTest extends BrowserTestBase {
+   /**
+    * {@inheritdoc}
+    */
+-  protected $defaultTheme = 'classy';
++  protected $defaultTheme = 'stable9';
+ 
+   /**
+    * {@inheritdoc}
+diff --git a/tests/src/FunctionalJavascript/HorizontalTabsLabelsTest.php b/tests/src/FunctionalJavascript/HorizontalTabsLabelsTest.php
+index 0f25291..aad2f2b 100644
+--- a/tests/src/FunctionalJavascript/HorizontalTabsLabelsTest.php
++++ b/tests/src/FunctionalJavascript/HorizontalTabsLabelsTest.php
+@@ -41,12 +41,8 @@ class HorizontalTabsLabelsTest extends WebDriverTestBase {
+    * @var string[]
+    */
+   protected $themeList = [
+-    'bartik',
+     'claro',
+     'olivero',
+-    'classy',
+-    'seven',
+-    'stable',
+     'stable9',
+     'stark',
+   ];

@@ -115,7 +115,7 @@
         },
         "patches": {
             "drupal/field_group": {
-                "Patch field_group_migrate module tests to change $modules to protected": "patches/patch-field-group-migrate-tests.patch"
+                "Issue #3318906: Deprecation in field_group_migrate automated tests": "https://git.drupalcode.org/project/field_group/-/merge_requests/28.patch"
             }
         }
     },

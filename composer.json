@@ -115,7 +115,6 @@
         },
         "patches": {
             "drupal/field_group": {
-                "Remove deprecated themes from unit tests": "patches/remove-deprecated-themes-from-unit-tests.patch",
                 "Patch field_group_migrate module tests to change $modules to protected": "patches/patch-field-group-migrate-tests.patch"
             }
         }
